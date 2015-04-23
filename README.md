@@ -1,6 +1,6 @@
-# Node.js Websocket example in Docker
+# Node.js WebSocket example in Docker
 
-This is a small demo which demonstrates the use of Websocket in Docker.
+This is a small demo which demonstrates the use of WebSocket in Docker.
 
 ## Image
 

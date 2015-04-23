@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Websocket test</title>
+  </head>
+  <body>
+    <h1>Websocket test</h1>
+
+    <script>
+var ws = new WebSocket('ws://127.0.0.1:8080');
+ws.onopen = function(event) 
+{
+   console.log('open: %s', event);
+   ws.send('something');
+};
+ws.onmessage = function(message) 
+{
+   console.log('received: %s', message);
+}; 
+    </script>
+  </body>
+</html>
+
